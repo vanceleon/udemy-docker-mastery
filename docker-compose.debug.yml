@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  udemy-docker-mastery:
+    image: udemy-docker-mastery
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
